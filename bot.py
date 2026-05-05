@@ -266,7 +266,7 @@ def main():
     app.add_handler(CallbackQueryHandler(handle_callback))
 
     logger.info("🤖 Bot başlatılıyor...")
-    asyncio.run(app.start.polling())
+    asyncio.run(app.start_polling())
 
 if __name__ == "__main__":
     main()
