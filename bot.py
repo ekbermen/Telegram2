@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.getenv("8782987027:AAHW-fc_ljVioDLwjZJQfIkx-2g2oSsae_g")
+BOT_TOKEN = ("8782987027:AAHW-fc_ljVioDLwjZJQfIkx-2g2oSsae_g")
 DOWNLOAD_DIR = "./downloads"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
 
